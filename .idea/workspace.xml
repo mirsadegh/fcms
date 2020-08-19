@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30bfe0fc-a5ba-4700-ac4f-20155b8f2cb8" name="Default" comment="Admin Panel Start Up create">
+    <list default="true" id="30bfe0fc-a5ba-4700-ac4f-20155b8f2cb8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -303,7 +303,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597756413287</updated>
       <workItem from="1597756414726" duration="5564000" />
-      <workItem from="1597815901198" duration="11292000" />
+      <workItem from="1597815901198" duration="11329000" />
     </task>
     <task id="LOCAL-00001" summary="Admin Panel Start Up">
       <created>1597825756855</created>
@@ -326,11 +326,18 @@
       <option name="project" value="LOCAL" />
       <updated>1597828153384</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update idea">
+      <created>1597828194321</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597828194321</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16856000" />
+    <option name="totallyTimeSpent" value="16893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1386" height="788" extended-state="0" />
@@ -366,7 +373,8 @@
     <MESSAGE value="Admin Panel Start Up" />
     <MESSAGE value="Admin Panel Start Up create" />
     <MESSAGE value="create CheckAdmin middleware" />
-    <option name="LAST_COMMIT_MESSAGE" value="create CheckAdmin middleware" />
+    <MESSAGE value="update idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="update idea" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
