@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30bfe0fc-a5ba-4700-ac4f-20155b8f2cb8" name="Default" comment="">
+    <list default="true" id="30bfe0fc-a5ba-4700-ac4f-20155b8f2cb8" name="Default" comment="update workspace">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -211,7 +211,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1386" />
@@ -303,7 +303,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597756413287</updated>
       <workItem from="1597756414726" duration="5564000" />
-      <workItem from="1597815901198" duration="11329000" />
+      <workItem from="1597815901198" duration="11364000" />
     </task>
     <task id="LOCAL-00001" summary="Admin Panel Start Up">
       <created>1597825756855</created>
@@ -333,14 +333,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597828194321</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update workspace">
+      <created>1597828225486</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597828225486</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16893000" />
+    <option name="totallyTimeSpent" value="16928000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1386" height="788" extended-state="0" />
+    <frame x="-8" y="-8" width="1386" height="788" extended-state="1" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -374,7 +381,8 @@
     <MESSAGE value="Admin Panel Start Up create" />
     <MESSAGE value="create CheckAdmin middleware" />
     <MESSAGE value="update idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="update idea" />
+    <MESSAGE value="update workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="update workspace" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
