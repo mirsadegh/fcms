@@ -713,7 +713,6 @@ input:-webkit-autofill:focus {
 #accordion .panel .panel-title a span {
     content: '';
     position: absolute;
-    
     top: 20px;
     width: 36px;
     height: 36px;
