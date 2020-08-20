@@ -21,7 +21,7 @@ class HeaderController extends Controller
      */
     public function edit(Header $header)
     {
-        //
+        return view('headers.edit',compact('header'));
     }
 
     /**
@@ -33,7 +33,7 @@ class HeaderController extends Controller
      */
     public function update(Request $request, Header $header)
     {
-        //
+        dd($header);
     }
 
 }
