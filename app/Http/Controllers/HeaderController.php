@@ -44,7 +44,7 @@ class HeaderController extends Controller
         ]);
 
         $header->update($data);
-        return redirect('/');
+        return back()->withMessage('هدر با موفقیت ویرایش شد.');
     }
 
 }
