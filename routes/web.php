@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+// resources route
+Route::resource('headers','HeaderController')->only(['edit','update']);
+
+
+// laravel auth routes
 Route::get('/', 'IndexController@main');
 
 Auth::routes();
