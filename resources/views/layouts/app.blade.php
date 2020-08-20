@@ -27,6 +27,10 @@
 
 
         <main class="py-4">
+            <div class="container">
+
+                @include('fragments.errors')
+            </div>
             @yield('content')
         </main>
     </div>

@@ -33,7 +33,18 @@ class HeaderController extends Controller
      */
     public function update(Request $request, Header $header)
     {
-        dd($header);
+//        dd($request->all());
+        $data = $request->validate([
+            'title' => 'nullable',
+            'btn_name' => 'nullable',
+            'btn_link' => 'nullable',
+            'description' => 'nullable|string|max:1000',
+            'mobile_visible' => 'nullable|boolean',
+            'preloader' => 'nullable|boolean',
+        ]);
+
+        $header->update($data);
+        return redirect('/');
     }
 
 }
