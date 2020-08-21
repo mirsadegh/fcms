@@ -52,7 +52,7 @@ return [
     ],
     'gte' => [
         'numeric' => 'The :attribute must be greater than or equal :value.',
-        'file' => 'The :attribute must be greater than or equal :value kilobytes.',
+        'file' => ' :attribute آپلود شده باید ماکسیمم :value کیلو بایت باشد.',
         'string' => 'The :attribute must be greater than or equal :value characters.',
         'array' => 'The :attribute must have :value items or more.',
     ],
@@ -82,7 +82,7 @@ return [
         'string' => 'The :attribute may not be greater than :max characters.',
         'array' => 'The :attribute may not have more than :max items.',
     ],
-    'mimes' => 'The :attribute must be a file of type: :values.',
+    'mimes' => ' :attribute آپلود شده باید یکی از  فرمت ها را داشته باشد.: :values.',
     'mimetypes' => 'The :attribute must be a file of type: :values.',
     'min' => [
         'numeric' => 'The :attribute must be at least :min.',
@@ -151,6 +151,7 @@ return [
         'btn_name' => 'نام دکمه',
         'btn_link' => 'لینک دکمه',
         'description' => 'متن',
+        'bg_path' => 'تصویر پس زمینه',
 
     ],
 

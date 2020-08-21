@@ -5,25 +5,33 @@
 
     <div class="container">
 
-            <form  action="{{ url("headers/$header->id") }}" method="post">
+            <form  action="{{ url("headers/$header->id") }}" method="post" enctype="multipart/form-data">
 
                 @csrf
                 @method('PUT')
                 <div class="row">
 
-                <div class="col-md-4 my-4">
+                <div class="col-md-3 my-4">
                     <label for="title">عنوان هدر</label>
                     <input class="form-control" type="text" name="title" id="title" value="{{ $header->title }}" >
                 </div>
 
 
-                <div class="col-md-4 my-4">
+                <div class="col-md-3 my-4">
                     <label for="btn-name">نام دکمه</label>
                     <input class="form-control" type="text" name="btn_name" id="btn-name" value="{{ $header->btn_name }}" >
                 </div>
-                <div class="col-md-4 my-4">
+
+
+                <div class="col-md-3 my-4">
                     <label for="btn-link"> لینک دکمه</label>
                     <input class="form-control" type="text" name="btn_link" id="btn-link" value="{{ $header->btn_link }}" >
+                </div>
+
+
+                <div class="col-md-3 my-4">
+                    <label for="bg_path">تصویر پس زمینه</label>
+                    <input class="form-control" type="file" name="bg_path" id="bg_path" >
                 </div>
 
                 <div class="col-md-12 my-4">
