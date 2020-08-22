@@ -4,7 +4,7 @@
 @section('content')
 
     <div class="container">
-
+        <h3 class="col-12 dinar text-info mb-2">ویرایش هدر</h3>
             <form  action="{{ url("headers/$header->id") }}" method="post" enctype="multipart/form-data">
 
                 @csrf
@@ -55,16 +55,43 @@
                     </div>
                 </div>
                 <hr class="col-12 my-2">
-                <div class="col-md-5 my-4 "></div>
-                <div class="col-md-2 my-4">
-                    <button type="submit" class="btn btn-primary btn-block" >
-                        <i class="ti-check ml-1"></i>
-                        تایید
-                    </button>
+                    <h3 class="col-12 dinar text-info my-4">عکس های اسلایدر</h3>
+
+                    @foreach($header->photes as $photo)
+                     <div class="col-md-3 my-2">
+                         <div class="card">
+                             <div class="card-body" >
+                                 <img src="{{ asset($photo->path) }}" class="img-fluid" style="width: 200px;height: 300px">
+                             </div>
+                             <div class="card-footer text-center">
+                                 <a href="javascript:void" class="delete-photo" data-photo-id="{{ $photo->id }}"><i class="ti-trash text-danger s-2x"></i></a>
+                             </div>
+                         </div>
+                     </div>
+
+                        @endforeach
+                    <hr class="col-12">
+                    <div class="col-md-3 mx-auto my-4">
+                        <label for="slider">آپلود عکس جدید برای اسلایدر</label>
+                        <input class="form-control" type="file" name="slider[]" id="slider" multiple>
+                    </div>
+
+                </div>
+                <hr>
+                <div id="photos-to-be-deleted">
+                    {{--this div will be filled via jquery--}}
+                </div>
+                <div class="row">
+
+                    <div class="col-md-2 mx-auto my-4">
+                        <button type="submit" class="btn btn-primary btn-block" >
+                            <i class="ti-check ml-1"></i>
+                            تایید
+                        </button>
+                    </div>
+
                 </div>
 
-
-                </div>
 
             </form>
 

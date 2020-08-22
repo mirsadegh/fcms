@@ -8,3 +8,18 @@ function rs($length = 10) {
     }
     return $randomString;
 }
+
+function upload($new_file , $prev_file=null)
+{
+
+    if ($prev_file &&  file_exists($prev_file)){
+        \File::delete($prev_file);
+    }
+    $relative_path = "storage/app/public/images";
+    $file_name = rs() .'.'. $new_file->getClientOriginalExtension();
+    $new_file->move( base_path($relative_path) ,$file_name);
+    return 'storage/images/' . $file_name;
+
+}
+
+

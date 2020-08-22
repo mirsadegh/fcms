@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Header;
+use App\HeaderMobilePhoto;
 use Illuminate\Http\Request;
 
 class HeaderController extends Controller
@@ -46,17 +47,30 @@ class HeaderController extends Controller
 
         $phote = $request->bg_path;
         if ($phote){
-            if (file_exists($header->bg_path)){
-                \File::delete($header->bg_path);
-            }
-            $relative_path = "storage/app/public/images";
-            $file_name = rs().'.'. $phote->getClientOriginalExtension();
-            $phote->move( base_path($relative_path) ,$file_name);
-            $data['bg_path'] = 'storage/images/' . $file_name;
+            $data['bg_path'] = upload($phote,$header->bg_path);
         }else{
             $data['bg_path'] = null;
         }
 
+        if ($sliders = $request->slider){
+            foreach ($sliders as $slider) {
+               $path = upload($slider);
+                HeaderMobilePhoto::make($path);
+            }
+
+        }
+
+        $photos_id= $request->photo_ids;
+
+        if ($photos_id){
+           foreach ($photos_id as $id){
+               $photo_delete = HeaderMobilePhoto::find($id);
+               if (file_exists($photo_delete->path)){
+                   \File::delete($photo_delete->path);
+               }
+               $photo_delete->delete();
+           }
+        }
 
         $header->update($data);
         return back()->withMessage('هدر با موفقیت ویرایش شد.');
