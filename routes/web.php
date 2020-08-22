@@ -22,5 +22,9 @@ Route::resource('headers','HeaderController')->only(['edit','update']);
 Route::get('/', 'IndexController@main');
 
 Auth::routes();
-
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+
+
+
