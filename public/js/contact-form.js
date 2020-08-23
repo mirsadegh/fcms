@@ -22,17 +22,22 @@ Ajax Contact Form
         $('.help-block').remove();
 
         // get the form data
-        var formData = {
-            'name' : $('input[name="form-name"]').val(),
-            'email' : $('input[name="form-email"]').val(),
-            'subject' : $('input[name="form-subject"]').val(),
-            'message' : $('textarea[name="form-message"]').val()
+        let formData = {
+            'name' : $('input[name="name"]').val(),
+            'email' : $('input[name="email"]').val(),
+            'subject' : $('input[name="subject"]').val(),
+            'body' : $('textarea[name="body"]').val()
         };
-
+        let token = $('input[name="_token"]').val();
         // process the form
+        $.ajaxSetup({
+            headers:{
+                'X-CSRF-TOKEN' : token
+            }
+        });
         $.ajax({
             type : 'POST',
-            url  : 'process.php',
+            url  : 'message',
             data : formData,
             dataType : 'json',
             encode : true
@@ -54,9 +59,9 @@ Ajax Contact Form
                     $('#subject-field').find('.col-lg-10').append('<span class="help-block">' + data.errors.subject + '</span>');
                 }
 
-                if (data.errors.message) {
+                if (data.errors.body) {
                     $('#message-field').addClass('has-error');
-                    $('#message-field').find('.col-lg-10').append('<span class="help-block">' + data.errors.message + '</span>');
+                    $('#message-field').find('.col-lg-10').append('<span class="help-block">' + data.errors.body + '</span>');
                 }
             } else {
                 // display success message
