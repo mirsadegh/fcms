@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30bfe0fc-a5ba-4700-ac4f-20155b8f2cb8" name="Default" comment="Update Footer">
+    <list default="true" id="30bfe0fc-a5ba-4700-ac4f-20155b8f2cb8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" />
-      <change beforePath="$PROJECT_DIR$/public/js/contact-form.js" afterPath="$PROJECT_DIR$/public/js/contact-form.js" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/footer.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/footer.blade.php" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,7 +49,7 @@
       <file leaf-file-name="contact-form.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/contact-form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-905">
+            <state relative-caret-position="337">
               <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -383,7 +379,7 @@
       <workItem from="1597990240024" duration="23165000" />
       <workItem from="1598078008911" duration="23302000" />
       <workItem from="1598156303294" duration="498000" />
-      <workItem from="1598165096062" duration="18353000" />
+      <workItem from="1598165096062" duration="18393000" />
     </task>
     <task id="LOCAL-00001" summary="Admin Panel Start Up">
       <created>1597825756855</created>
@@ -525,11 +521,18 @@
       <option name="project" value="LOCAL" />
       <updated>1598182852605</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="send Ajax Request for Message">
+      <created>1598191041991</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1598191041991</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116374000" />
+    <option name="totallyTimeSpent" value="116414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1386" height="788" extended-state="0" />
@@ -604,7 +607,8 @@
     <MESSAGE value="Footer Database and Migration" />
     <MESSAGE value="Edit Footer Form" />
     <MESSAGE value="Update Footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Footer" />
+    <MESSAGE value="send Ajax Request for Message" />
+    <option name="LAST_COMMIT_MESSAGE" value="send Ajax Request for Message" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1041,7 +1045,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/contact-form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-905">
+        <state relative-caret-position="337">
           <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
