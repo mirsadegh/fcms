@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -14,6 +15,7 @@ class HomeController extends Controller
     public function __construct()
     {
         $this->middleware('auth');
+
     }
 
     /**
@@ -24,9 +26,11 @@ class HomeController extends Controller
     public function index()
     {
         $current_user = auth()->user();
-        if($current_user->admin){
+        if ($current_user->admin) {
             return view('dashboards.admin');
         };
         return view('dashboards.user');
     }
+
+
 }
