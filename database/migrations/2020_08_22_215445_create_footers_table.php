@@ -24,7 +24,7 @@ class CreateFootersTable extends Migration
             $table->string('facebook')->nullable();
             $table->string('twitter')->nullable();
             $table->string('google')->nullable();
-            $table->string('linkdin')->nullable();
+            $table->string('linkedin')->nullable();
             $table->string('instagram')->nullable();
             $table->string('telegram')->nullable();
             $table->boolean('visible')->default(1);
@@ -42,7 +42,7 @@ class CreateFootersTable extends Migration
             'facebook' => 'eylay.ir',
             'twitter' => 'eylay.ir',
             'google' => 'eylay.ir',
-            'linkdin' => 'eylay.ir',
+            'linkedin' => 'eylay.ir',
             'instagram' => 'eylay.ir',
             'telegram' => 'eylay.ir',
             'facebook' => 'eylay.ir',

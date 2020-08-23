@@ -3,7 +3,7 @@
 
 @section('content')
 
-    <div class="container">
+
         <h3 class="col-12 dinar text-info mb-2">ویرایش هدر</h3>
         <form action="{{ url("headers/$header->id") }}" method="post" enctype="multipart/form-data">
 
@@ -99,6 +99,6 @@
             </div>
 
         </form>
-    </div>
+
 
 @endsection

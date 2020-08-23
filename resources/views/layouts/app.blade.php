@@ -10,7 +10,6 @@
     <title>{{ config('app.name', 'ECMS') }}</title>
 
 
-
     <!-- Fonts -->
     <link rel="stylesheet" href="{{ asset('css/fonts.css') }}">
 
@@ -24,22 +23,24 @@
 
 </head>
 <body>
-    <div id="app">
+<div id="app">
 
-        @include('fragments.nav')
+    @include('fragments.nav')
 
 
-        <main class="py-4">
-            <div class="container">
+    <main class="py-4">
+        <div class="container">
 
-                @include('fragments.message')
-                @include('fragments.errors')
-            </div>
+            @include('fragments.message')
+            @include('fragments.errors')
+        </div>
+        <div class="container bg-white py-4">
             @yield('content')
-        </main>
-    </div>
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}"></script>
-    <script src="{{ asset('js/panel.js') }}"></script>
+        </div>
+    </main>
+</div>
+<!-- Scripts -->
+<script src="{{ asset('js/app.js') }}"></script>
+<script src="{{ asset('js/panel.js') }}"></script>
 </body>
 </html>

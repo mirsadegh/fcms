@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 // resources route
 Route::resource('headers','HeaderController')->only(['edit','update']);
+Route::resource('footers','FooterController')->only(['edit','update']);
 
 
 // laravel auth routes
