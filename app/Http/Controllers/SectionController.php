@@ -26,7 +26,8 @@ class SectionController extends Controller
     {
           $section_types = ['features','tabs','prices','cards','faq','clients','posts'];
           $count = Section::count();
-          return view('sections.create',compact('section_types','count'));
+          $section = new Section;
+          return view('sections.create_or_edit',compact('section_types','count','section'));
     }
 
     /**
@@ -34,16 +35,12 @@ class SectionController extends Controller
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
+     * post Request to sections
      */
     public function store(Request $request)
     {
-         $data = $request->validate([
-           'type'      => 'required',
-           'position'  => 'required',
-        ]);
-
+         $data =  self::validation();
          Section::create($data);
-
          return redirect('home')->withMessage('بخش مورد نظر اضافه شد.');
 
     }
@@ -67,7 +64,9 @@ class SectionController extends Controller
      */
     public function edit(Section $section)
     {
-        //
+        $section_types = ['features','tabs','prices','cards','faq','clients','posts'];
+        $count = Section::count();
+        return view('sections.create_or_edit',compact('section_types','section'));
     }
 
     /**
@@ -76,10 +75,13 @@ class SectionController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @param  \App\Section  $section
      * @return \Illuminate\Http\Response
+     * put request to sections /{id}
      */
     public function update(Request $request, Section $section)
     {
-        //
+        $data =  self::validation();
+        $section->update($data);
+        return redirect('home')->withMessage('بخش مورد نظر ویرایش شد.');
     }
 
     /**
@@ -91,5 +93,13 @@ class SectionController extends Controller
     public function destroy(Section $section)
     {
         //
+    }
+
+    public static function validation()
+    {
+       return  request()->validate([
+            'type'      => 'required',
+            'position'  => 'required',
+        ]);
     }
 }
