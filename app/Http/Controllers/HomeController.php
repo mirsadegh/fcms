@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 
+use App\Section;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -27,7 +28,8 @@ class HomeController extends Controller
     {
         $current_user = auth()->user();
         if ($current_user->admin) {
-            return view('dashboards.admin');
+            $sections = Section::orderBy('position')->get();
+            return view('dashboards.admin',compact('sections'));
         };
         return view('dashboards.user');
     }

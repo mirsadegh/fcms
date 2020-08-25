@@ -24,8 +24,9 @@ class SectionController extends Controller
      */
     public function create()
     {
-          $section_types = ['a','b','c'];
-          return view('sections.create',compact('section_types'));
+          $section_types = ['features','tabs','prices','cards','faq','clients','posts'];
+          $count = Section::count();
+          return view('sections.create',compact('section_types','count'));
     }
 
     /**
@@ -36,7 +37,15 @@ class SectionController extends Controller
      */
     public function store(Request $request)
     {
-        dd('store');
+         $data = $request->validate([
+           'type'      => 'required',
+           'position'  => 'required',
+        ]);
+
+         Section::create($data);
+
+         return redirect('home')->withMessage('بخش مورد نظر اضافه شد.');
+
     }
 
     /**

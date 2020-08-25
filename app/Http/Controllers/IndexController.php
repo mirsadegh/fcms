@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Footer;
 use App\Header;
 use App\Message;
+use App\Section;
 use Illuminate\Http\Request;
 
 class IndexController extends Controller
@@ -12,8 +13,9 @@ class IndexController extends Controller
     public function main()
     {
         $header = Header::first() ?? new Header;
+        $sections = Section::orderBy('position')->get();
         $footer = Footer::first() ?? new Footer;
-        return view('index',compact('header','footer'));
+        return view('index',compact('header','sections','footer'));
 
     }
 

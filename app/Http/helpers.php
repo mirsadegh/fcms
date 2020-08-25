@@ -22,4 +22,19 @@ function upload($new_file , $prev_file=null)
 
 }
 
+ function translate_section_type ($word)
+ {
+     switch ($word){
+         case 'features' :return 'خدمات';break ;
+         case 'tabs' :return 'مجموع تب';break ;
+         case 'prices' :return 'قیمت';break ;
+         case 'cards' :return 'کارت ها';break ;
+         case 'faq' :return 'پرسش و پاسخ';break ;
+         case 'clients' :return 'مشتریان';break ;
+         case 'posts' :return 'پست ها';break ;
+         default :return $word;
+     }
+
+ }
+
 
