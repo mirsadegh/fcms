@@ -31,6 +31,15 @@ body{
     text-decoration: none;
 }
 
+.add-row {
+    position: fixed;
+    /*background-color: #2ac342;*/
+    padding: 15px 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
 /*are_you_sure box*/
 
 #are-you-sure{

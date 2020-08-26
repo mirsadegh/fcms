@@ -20,6 +20,7 @@ Route::get('/messages','MessageController@index');
 Route::get('/messages/delete/{message}','MessageController@destroy');
 Route::get('sections/visibility/{section}','SectionController@visibility');
 Route::get('contents/{section}','ContentController@edit');
+Route::post('contents/{section}','ContentController@update');
 
 
 

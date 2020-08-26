@@ -12,7 +12,7 @@ class ContentController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Content  $content
+     * @param Section $section
      * @return \Illuminate\Http\Response
      */
     public function edit(Section $section)
@@ -23,22 +23,23 @@ class ContentController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Content  $content
-     * @return \Illuminate\Http\Response
+     * @param  \Illuminate\Http\Request $request
+     * @param Section $section
+     * @return void
      */
-    public function update(Request $request, Content $content)
+    public function update(Request $request, Section $section)
     {
-        //
+        dd($request->all());
+        dd($section);
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Content  $content
-     * @return \Illuminate\Http\Response
+     * @param Section $section
+     * @return void
      */
-    public function destroy(Content $content)
+    public function destroy( Section $section)
     {
         //
     }
