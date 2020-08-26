@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+     //deleting photos
     $('a.delete-photo').click(function () {
         let id = $(this).attr('data-photo-id');
         let input = '<input type="hidden" name="photo_ids[]" value="'+id+'">';
@@ -7,6 +8,7 @@ $(document).ready(function () {
         $(this).parents('.col-md-3').remove();
     });
 
+    //are you sure
     $('.danger-alert').click(function () {
         let target = $(this).attr('data-target');
         $('#are-you-sure #yes').attr('data-target',target);
@@ -20,6 +22,14 @@ $(document).ready(function () {
         let form = $('#'+id);
         form.submit();
 
+    });
+
+    //clone action
+
+    $('#cloner').click(function () {
+        let row = $('.clone-row').first();
+        row.clone().appendTo('#clone-box');
+       console.log(row);
     });
 
 });

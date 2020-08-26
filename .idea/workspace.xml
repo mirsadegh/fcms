@@ -3,20 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="30bfe0fc-a5ba-4700-ac4f-20155b8f2cb8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContentController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContentController.php" />
       <change beforePath="$PROJECT_DIR$/public/css/panel.css" afterPath="$PROJECT_DIR$/public/css/panel.css" />
+      <change beforePath="$PROJECT_DIR$/public/js/panel.js" afterPath="$PROJECT_DIR$/public/js/panel.js" />
       <change beforePath="$PROJECT_DIR$/resources/views/contents/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/contents/edit.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/contents/partials/cols.blade.php" afterPath="$PROJECT_DIR$/resources/views/contents/partials/cols.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/contents/partials/description.blade.php" afterPath="$PROJECT_DIR$/resources/views/contents/partials/description.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/contents/partials/icon.blade.php" afterPath="$PROJECT_DIR$/resources/views/contents/partials/icon.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/contents/partials/link_href.blade.php" afterPath="$PROJECT_DIR$/resources/views/contents/partials/link_href.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/contents/partials/link_name.blade.php" afterPath="$PROJECT_DIR$/resources/views/contents/partials/link_name.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/contents/partials/picture.blade.php" afterPath="$PROJECT_DIR$/resources/views/contents/partials/picture.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/contents/partials/picture1.blade.php" afterPath="$PROJECT_DIR$/resources/views/contents/partials/picture1.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/contents/partials/picture2.blade.php" afterPath="$PROJECT_DIR$/resources/views/contents/partials/picture2.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/contents/partials/subtitle.blade.php" afterPath="$PROJECT_DIR$/resources/views/contents/partials/subtitle.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/contents/partials/title.blade.php" afterPath="$PROJECT_DIR$/resources/views/contents/partials/title.blade.php" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -77,49 +66,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContentController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ContentController.php">
+      <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/contents/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+            <state relative-caret-position="253">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
-                <element signature="e#40#56#0#PHP" expanded="true" />
+                <element signature="e#223#793#0#HTML" expanded="false" />
+                <marker date="1598454827191" expanded="true" signature="9:22" ph="..." />
+                <marker date="1598454827191" expanded="true" signature="34:43" ph="..." />
+                <marker date="1598454827191" expanded="true" signature="71:101" ph="..." />
+                <marker date="1598454827191" expanded="true" signature="577:605" ph="..." />
+                <marker date="1598454827191" expanded="true" signature="646:672" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Section.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Section.php">
+      <file leaf-file-name="panel.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/css/panel.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="15" column="102" lean-forward="false" selection-start-line="15" selection-start-column="102" selection-end-line="15" selection-end-column="102" />
+            <state relative-caret-position="203">
+              <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/contents/edit.blade.php">
+      <file leaf-file-name="panel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/panel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-              <folding>
-                <marker date="1598449079912" expanded="true" signature="9:22" ph="..." />
-                <marker date="1598449079912" expanded="true" signature="34:43" ph="..." />
-                <marker date="1598449079912" expanded="true" signature="71:101" ph="..." />
-                <marker date="1598449079912" expanded="true" signature="452:480" ph="..." />
-                <marker date="1598449079912" expanded="true" signature="513:539" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="panel.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/panel.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+            <state relative-caret-position="406">
+              <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -182,7 +160,6 @@
         <option value="$PROJECT_DIR$/resources/views/sections/create_or_edit.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_08_25_133333_visiblity_for_sections.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/public/js/panel.js" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/SectionController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/resources/views/fragments/are_you_sure.blade.php" />
@@ -202,8 +179,9 @@
         <option value="$PROJECT_DIR$/resources/views/contents/partials/picture1.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/contents/partials/icon.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ContentController.php" />
-        <option value="$PROJECT_DIR$/public/css/panel.css" />
+        <option value="$PROJECT_DIR$/public/js/panel.js" />
         <option value="$PROJECT_DIR$/resources/views/contents/edit.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/panel.css" />
       </list>
     </option>
   </component>
@@ -364,21 +342,6 @@
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="ecmslv7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecmslv7" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="contents" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="ecmslv7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecmslv7" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="contents" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="partials" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -389,7 +352,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../laravelpro" />
-    <property name="SearchEverywhereHistoryKey" value="panel&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/public/css/panel.css&#10;we&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/routes/web.php&#10;Sec&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/app/Section.php&#10;posts&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/resources/views/partials/posts.blade.php&#10;are&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/resources/views/fragments/are_you_sure.blade.php&#10;IndexController&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/app/Http/Controllers/IndexController.php&#10;admi&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/resources/views/dashboards/admin.blade.php&#10;cre&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/resources/views/sections/create.blade.php&#10;IndexC&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/app/Http/Controllers/IndexController.php&#10;hel&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/app/Http/helpers.php&#10;helper&#9;null&#9;null&#10;admin.&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/resources/views/dashboards/admin.blade.php&#10;nav&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/resources/views/fragments/nav.blade.php&#10;HomeController&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/app/Http/Controllers/HomeController.php&#10;Inde&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/app/Http/Controllers/IndexController.php&#10;foo&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/resources/views/partials/footer.blade.php&#10;app&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/resources/views/layouts/app.blade.php&#10;admin.bl&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/resources/views/dashboards/admin.blade.php&#10;index&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/resources/views/index.blade.php&#10;Index&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/app/Http/Controllers/IndexController.php&#10;ma&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/resources/views/layouts/master.blade.php&#10;sty&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/public/style.css&#10;footer&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/resources/views/partials/footer.blade.php&#10;footer.blade.php&#9;null&#9;null&#10;style&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/public/style.css&#10;valid&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/resources/lang/fa/validation.php&#10;He&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/app/Header.php&#10;pan&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/public/css/panel.css&#10;nav.blade.&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/resources/views/fragments/nav.blade.php&#10;pa&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/public/css/panel.css&#10;faq.blade.php&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="pane&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/public/css/panel.css&#10;panel.js&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/public/js/panel.js&#10;panel&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/public/css/panel.css&#10;we&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/routes/web.php&#10;Sec&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/app/Section.php&#10;posts&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/resources/views/partials/posts.blade.php&#10;are&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/resources/views/fragments/are_you_sure.blade.php&#10;IndexController&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/app/Http/Controllers/IndexController.php&#10;admi&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/resources/views/dashboards/admin.blade.php&#10;cre&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/resources/views/sections/create.blade.php&#10;IndexC&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/app/Http/Controllers/IndexController.php&#10;hel&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/app/Http/helpers.php&#10;helper&#9;null&#9;null&#10;admin.&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/resources/views/dashboards/admin.blade.php&#10;nav&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/resources/views/fragments/nav.blade.php&#10;HomeController&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/app/Http/Controllers/HomeController.php&#10;Inde&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/app/Http/Controllers/IndexController.php&#10;foo&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/resources/views/partials/footer.blade.php&#10;app&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/resources/views/layouts/app.blade.php&#10;admin.bl&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/resources/views/dashboards/admin.blade.php&#10;index&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/resources/views/index.blade.php&#10;Index&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/app/Http/Controllers/IndexController.php&#10;ma&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/resources/views/layouts/master.blade.php&#10;sty&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/public/style.css&#10;footer&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/resources/views/partials/footer.blade.php&#10;footer.blade.php&#9;null&#9;null&#10;style&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/public/style.css&#10;valid&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/resources/lang/fa/validation.php&#10;He&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/app/Header.php&#10;pan&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/public/css/panel.css&#10;nav.blade.&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/resources/views/fragments/nav.blade.php&#10;pa&#9;FILE&#9;file://C:/Users/Home/Desktop/ecmslv7/public/css/panel.css&#10;faq.blade.php&#9;null&#9;null" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
@@ -439,7 +402,7 @@
       <workItem from="1598249064170" duration="911000" />
       <workItem from="1598257278664" duration="7538000" />
       <workItem from="1598334873945" duration="24501000" />
-      <workItem from="1598420271177" duration="16699000" />
+      <workItem from="1598420271177" duration="19114000" />
     </task>
     <task id="LOCAL-00001" summary="Admin Panel Start Up">
       <created>1597825756855</created>
@@ -644,11 +607,18 @@
       <option name="project" value="LOCAL" />
       <updated>1598435876776</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="working with Contents form">
+      <created>1598452538497</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1598452538497</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171038000" />
+    <option name="totallyTimeSpent" value="173453000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -712,7 +682,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update workspace" />
     <MESSAGE value="Admin Panel sitemap" />
     <MESSAGE value="create Header Model and Migration and Controller" />
     <MESSAGE value="Header Relation" />
@@ -737,7 +706,8 @@
     <MESSAGE value="deleting sections and change visibility of sections" />
     <MESSAGE value="contents Model and Controller and Migration" />
     <MESSAGE value="Edit Sections Contents" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit Sections Contents" />
+    <MESSAGE value="working with Contents form" />
+    <option name="LAST_COMMIT_MESSAGE" value="working with Contents form" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -937,14 +907,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/panel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -1089,6 +1051,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ContentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+          <folding>
+            <element signature="e#40#56#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/dashboards/admin.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -1122,43 +1102,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/public/js/panel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ContentController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-          <folding>
-            <element signature="e#40#56#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/panel.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+        <state relative-caret-position="406">
+          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/contents/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="253">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
-            <marker date="1598449079912" expanded="true" signature="9:22" ph="..." />
-            <marker date="1598449079912" expanded="true" signature="34:43" ph="..." />
-            <marker date="1598449079912" expanded="true" signature="71:101" ph="..." />
-            <marker date="1598449079912" expanded="true" signature="452:480" ph="..." />
-            <marker date="1598449079912" expanded="true" signature="513:539" ph="..." />
+            <element signature="e#223#793#0#HTML" expanded="false" />
+            <marker date="1598454827191" expanded="true" signature="9:22" ph="..." />
+            <marker date="1598454827191" expanded="true" signature="34:43" ph="..." />
+            <marker date="1598454827191" expanded="true" signature="71:101" ph="..." />
+            <marker date="1598454827191" expanded="true" signature="577:605" ph="..." />
+            <marker date="1598454827191" expanded="true" signature="646:672" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/panel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
