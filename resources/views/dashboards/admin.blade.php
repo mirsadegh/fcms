@@ -41,8 +41,8 @@
                         <i class="fa fa-pencil-alt s-1-5x" title="ویرایش "></i>
                     </a>
 
-                    <a href="#" class="text-primary mx-2">
-                        <i class="fa fa-edit s-1-5x" title=" ویرایش محتویات"></i>
+                    <a href="{{ url("contents/$section->id") }}" class="text-primary mx-2">
+                        <i class="fa fa-edit s-1-5x" title=" ویرایش محتوا"></i>
                     </a>
 
                     <a href="javascript:void" class=" text-danger danger-alert mx-2" data-target="section-{{ $section->id }}">
