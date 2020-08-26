@@ -31,4 +31,14 @@ body{
     text-decoration: none;
 }
 
+/*are_you_sure box*/
 
+#are-you-sure{
+    position: fixed;
+    bottom: 40%;
+    left: 40%;
+    z-index: 999;
+    padding: 25px 100px;
+    display: none;
+
+}

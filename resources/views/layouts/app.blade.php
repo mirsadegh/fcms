@@ -33,6 +33,7 @@
 
             @include('fragments.message')
             @include('fragments.errors')
+            @include('fragments.are_you_sure')
         </div>
         <div class="container bg-white py-4">
             @yield('content')

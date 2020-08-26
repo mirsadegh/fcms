@@ -13,7 +13,7 @@ class IndexController extends Controller
     public function main()
     {
         $header = Header::first() ?? new Header;
-        $sections = Section::orderBy('position')->get();
+        $sections = Section::where('visible',1)->orderBy('position')->get();
         $footer = Footer::first() ?? new Footer;
         return view('index',compact('header','sections','footer'));
 
