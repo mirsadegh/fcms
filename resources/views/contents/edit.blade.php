@@ -4,21 +4,27 @@
           <form action="{{ url("contents/$section->id") }}" method="post" enctype="multipart/form-data">
               @csrf
               <div id="clone-box">
-                  <div class="clone-row">
-                      <div class="row">
 
-                          <div class="col-md-3 my-2">
-                              <label for="position">ترتیب</label>
-                              <input type="number" name="position[]" value="" class="form-control" required>
+
+                  @foreach($contents as $content)
+
+                      <div class="clone-row">
+                          <div class="row">
+
+                              <div class="col-md-3 my-2">
+                                  <label for="position">ترتیب</label>
+                                  <input type="number" name="position[]" value="{{ $content->position }}" class="form-control" required>
+                              </div>
+
+                              @foreach($section->inputs() as $input)
+                                  @include("contents.partials.$input")
+                              @endforeach
                           </div>
+                          <hr>
 
-                          @foreach($section->inputs() as $input)
-                              @include("contents.partials.$input")
-                          @endforeach
                       </div>
-                      <hr>
+                   @endforeach
 
-                  </div>
 
 
               </div>

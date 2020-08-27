@@ -8,8 +8,16 @@ class Section extends Model
 {
     protected $guarded = ['id'];
 
-    public function inputs()
+
+
+    public function contents()
     {
+        return $this->hasMany(Content::class)->orderBy('position');
+    }
+
+    public function inputs()
+    { 
+        
         switch ($this->type){
             case  'features' : return [ 'title', 'icon','picture','cols','description'];break;
             case  'tabs'     : return ['title','link_name','link_href','picture1','picture2' ,'description'];break;
