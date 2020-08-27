@@ -9,7 +9,7 @@
 
                           <div class="col-md-3 my-2">
                               <label for="position">ترتیب</label>
-                              <input type="number" name="position[]" value="" class="form-control">
+                              <input type="number" name="position[]" value="" class="form-control" required>
                           </div>
 
                           @foreach($section->inputs() as $input)

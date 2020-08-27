@@ -29,7 +29,7 @@ $(document).ready(function () {
     $('#cloner').click(function () {
         let row = $('.clone-row').first();
         row.clone().appendTo('#clone-box');
-       console.log(row);
+
     });
 
 });
