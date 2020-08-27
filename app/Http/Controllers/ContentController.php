@@ -35,21 +35,10 @@ class ContentController extends Controller
         $result = self::prepare($request->all() , $section->id);
         Content::where('section_id',$section->id)->delete();
 
-
         Content::insert($result);
         return back()->withMessage('اطلاعات وارد شده ثبت گردید.');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param Section $section
-     * @return void
-     */
-    public function destroy( Section $section)
-    {
-        //
-    }
 
     public static function prepare($data,$section_id)
     {
