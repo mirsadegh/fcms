@@ -24,11 +24,6 @@ $(document).ready(function () {
 
     });
 
-
-
-
-
-
 });
 
 //clone action

@@ -14,8 +14,6 @@
     @foreach($sections as $section)
          @include("partials.$section->type")
      @endforeach
-
-
     {{--@include('partials.testimonial')--}}
     @if($footer->visible)
    @include('partials.footer')
