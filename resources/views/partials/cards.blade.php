@@ -1,14 +1,7 @@
 
 <section class="section-padding gray-bg" id="team-page">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
-                <div class="page-title">
-                    <h2>Special team</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
-                </div>
-            </div>
-        </div>
+         @include('partials.title_description')
         <div class="row">
             @foreach($section->contents as $content)
             <div class="col-md-{{ $content->cols }}">

@@ -1,15 +1,7 @@
 <section class="price-area overlay section-padding" id="price-page">
     <div class="container">
+        @include('partials.title_description')
         <div class="row">
-            <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
-                <div class="page-title">
-                    <h2>Afortable Price</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates,  facere harum fugiat!</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-
             @foreach($section->contents as $content)
             <div class="col-md-{{ $content->cols }}">
                 <div class="price-table">

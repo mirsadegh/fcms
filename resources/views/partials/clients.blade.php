@@ -1,6 +1,7 @@
 
 <section class="section-padding overlay client-area overlay" id="client-page">
     <div class="container">
+        @include('partials.title_description')
         <div class="row text-center">
             <div class="col-xs-12">
                 <div class="clients">

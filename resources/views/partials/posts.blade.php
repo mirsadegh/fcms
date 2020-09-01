@@ -1,6 +1,7 @@
 
 <section class="section-padding gray-bg" id="blog-page">
     <div class="container">
+        @include('partials.title_description')
         <div class="row">
             @foreach($section->contents as $content)
             <div class="col-md-{{ $content->cols }}">
