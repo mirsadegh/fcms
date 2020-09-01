@@ -4,54 +4,13 @@
         <div class="row text-center">
             <div class="col-xs-12">
                 <div class="clients">
+                    @foreach($section->contents as $content)
                     <div class="item">
-                        <img src="images/themeforest.gif" alt="">
+                        <img src="{{ asset($content->picture_path) }}" alt="{{ $content->title }}">
+                        <strong>{{ $content->title }}</strong>
                     </div>
-                    <div class="item">
-                        <img src="images/coadcanyon.gif" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="images/graphicriver.gif" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="images/docean.gif" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="images/audiojungle.gif" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="images/actividen.gif" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="images/photodone.gif" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="images/videgub.gif" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="images/themeforest.gif" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="images/coadcanyon.gif" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="images/graphicriver.gif" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="images/docean.gif" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="images/audiojungle.gif" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="images/actividen.gif" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="images/photodone.gif" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="images/videgub.gif" alt="">
-                    </div>
+                   @endforeach
+
                 </div>
             </div>
         </div>
