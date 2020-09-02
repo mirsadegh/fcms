@@ -21,6 +21,8 @@ Route::get('/messages/delete/{message}','MessageController@destroy');
 Route::get('sections/visibility/{section}','SectionController@visibility');
 Route::get('contents/{section}','ContentController@edit');
 Route::post('contents/{section}','ContentController@update');
+Route::get('menu','MenuController@edit');
+Route::post('menu','MenuController@update');
 
 
 

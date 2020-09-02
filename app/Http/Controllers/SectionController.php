@@ -8,6 +8,13 @@ use Illuminate\Http\Request;
 class SectionController extends Controller
 {
 
+    public function __construct()
+    {
+        $this->middleware('auth');
+        $this->middleware('admin');
+    }
+
+
     /**
      * Show the form for creating a new resource.
      *
