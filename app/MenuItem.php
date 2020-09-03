@@ -11,6 +11,9 @@ class MenuItem extends Model
     public function section_id()
     {
         $number = str_replace("#section-","",$this->link);
-        return is_numeric($number) ? $number :0;
+        return is_numeric($number) ? $number : 0;
     }
 }
+
+
+
