@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="30bfe0fc-a5ba-4700-ac4f-20155b8f2cb8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/MenuItem.php" afterPath="$PROJECT_DIR$/app/MenuItem.php" />
-      <change beforePath="$PROJECT_DIR$/app/Section.php" afterPath="$PROJECT_DIR$/app/Section.php" />
-      <change beforePath="$PROJECT_DIR$/public/style.css" afterPath="$PROJECT_DIR$/public/style.css" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/cards.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/cards.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/menu.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/menu.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -384,7 +379,7 @@
       <workItem from="1598859127325" duration="14219000" />
       <workItem from="1598940204253" duration="23303000" />
       <workItem from="1599048693255" duration="7726000" />
-      <workItem from="1599113324615" duration="16096000" />
+      <workItem from="1599113324615" duration="16269000" />
     </task>
     <task id="LOCAL-00001" summary="Admin Panel Start Up">
       <created>1597825756855</created>
@@ -680,11 +675,18 @@
       <option name="project" value="LOCAL" />
       <updated>1599138933731</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="CMS Ready">
+      <created>1599145360040</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1599145360040</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="261901000" />
+    <option name="totallyTimeSpent" value="262074000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -748,7 +750,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Edit Footer Form" />
     <MESSAGE value="Update Footer" />
     <MESSAGE value="send Ajax Request for Message" />
     <MESSAGE value="send Ajax Request for Message2" />
@@ -773,7 +774,8 @@
     <MESSAGE value="Edit Method In MenuController" />
     <MESSAGE value="Update Menu Items" />
     <MESSAGE value="working with Menu links" />
-    <option name="LAST_COMMIT_MESSAGE" value="working with Menu links" />
+    <MESSAGE value="CMS Ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="CMS Ready" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
