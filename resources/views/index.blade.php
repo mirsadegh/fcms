@@ -12,7 +12,9 @@
     @endif
 
     @foreach($sections as $section)
-         @include("partials.$section->type")
+        <div id="section-{{ $section->id }}">
+            @include("partials.$section->type")
+        </div>
      @endforeach
     {{--@include('partials.testimonial')--}}
     @if($footer->visible)
