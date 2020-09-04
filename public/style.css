@@ -279,7 +279,7 @@ input:-webkit-autofill:focus {
 
 .box .box-icon img {
     /*-webkit-filter: grayscale(100%);*/
-    filter: grayscale(100%);
+    /*filter: grayscale(100%);*/
     -webkit-transition: 0.3s;
     transition: 0.3s;
 }
